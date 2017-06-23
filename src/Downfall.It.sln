@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Downfall.It.Web", "Downfall.It.Web\Downfall.It.Web.csproj", "{06DEF243-138B-4280-85D7-D07E16345C40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Downfall.It.Web", "Downfall.It.Web\Downfall.It.Web.csproj", "{06DEF243-138B-4280-85D7-D07E16345C40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Downfall.It.Merge", "Downfall.It.Merge\Downfall.It.Merge.csproj", "{E384557D-E3D2-4EC8-8FC2-0F484DD7E701}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{06DEF243-138B-4280-85D7-D07E16345C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06DEF243-138B-4280-85D7-D07E16345C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06DEF243-138B-4280-85D7-D07E16345C40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E384557D-E3D2-4EC8-8FC2-0F484DD7E701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E384557D-E3D2-4EC8-8FC2-0F484DD7E701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E384557D-E3D2-4EC8-8FC2-0F484DD7E701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E384557D-E3D2-4EC8-8FC2-0F484DD7E701}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
