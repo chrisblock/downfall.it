@@ -1,0 +1,1 @@
+.\ffmpeg.exe -i downfall.wmv -i test.srt -vcodec copy -acodec copy -scodec copy -map 0:0 -map 0:1 -map 1:0 -y output.mkv
