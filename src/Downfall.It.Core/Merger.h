@@ -3,11 +3,17 @@
 using namespace System;
 using namespace System::Text;
 
-namespace DownfallItCore
+namespace Downfall
 {
-	public ref class Merger
+	namespace It
 	{
-	public:
-		array<System::Byte> ^AddSubtitles(array<System::Byte> ^subtitleFileContents);
-	};
+		namespace Core
+		{
+			public ref class Merger
+			{
+			public:
+				array<System::Byte> ^AddSubtitles(array<System::Byte> ^subtitleFileContents);
+			};
+		}
+	}
 }

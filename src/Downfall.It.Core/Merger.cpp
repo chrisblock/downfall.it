@@ -1,9 +1,10 @@
 #include "stdafx.h"
 
 #include "Merger.h"
+
 #include "LibAvFormatWrapper.h"
 
-array<System::Byte> ^DownfallItCore::Merger::AddSubtitles(array<System::Byte> ^subtitleFileContents)
+array<System::Byte> ^Downfall::It::Core::Merger::AddSubtitles(array<System::Byte> ^subtitleFileContents)
 {
 	auto str = Encoding::UTF8->GetString(subtitleFileContents);
 

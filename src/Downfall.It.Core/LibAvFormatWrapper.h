@@ -1,13 +1,19 @@
 #pragma once
 
-namespace DownfallItCore
+namespace Downfall
 {
-	public class LibAvFormatWrapper
+	namespace It
 	{
-	public:
-		LibAvFormatWrapper();
-		~LibAvFormatWrapper();
+		namespace Core
+		{
+			public class LibAvFormatWrapper
+			{
+			public:
+				LibAvFormatWrapper();
+				~LibAvFormatWrapper();
 
-	private:
-	};
+			private:
+			};
+		}
+	}
 }

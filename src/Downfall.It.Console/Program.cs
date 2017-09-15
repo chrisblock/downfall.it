@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Text;
 
-using DownfallItCore;
+using Downfall.It.Core;
 
 namespace Downfall.It.Console
 {
